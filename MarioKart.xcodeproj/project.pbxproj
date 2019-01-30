@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED0D9BFF21FBD96E0040BA87 /* Mario Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mario Cart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D9BFF21FBD96E0040BA87 /* MarioKart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioKart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0D9C0221FBD96E0040BA87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED0D9C0421FBD96E0040BA87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED0D9C0721FBD96E0040BA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED0D9C0921FBD9710040BA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED0D9C0C21FBD9710040BA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED0D9C0E21FBD9710040BA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED0D9C1321FBD9710040BA87 /* Mario CartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mario CartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D9C1321FBD9710040BA87 /* MarioKartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioKartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0D9C1721FBD9710040BA87 /* Mario_CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario_CartTests.swift; sourceTree = "<group>"; };
 		ED0D9C1921FBD9710040BA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED0D9C1E21FBD9710040BA87 /* Mario CartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mario CartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D9C1E21FBD9710040BA87 /* MarioKartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioKartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0D9C2221FBD9710040BA87 /* Mario_CartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario_CartUITests.swift; sourceTree = "<group>"; };
 		ED0D9C2421FBD9710040BA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		ED0D9BF621FBD96D0040BA87 = {
 			isa = PBXGroup;
 			children = (
-				ED0D9C0121FBD96E0040BA87 /* Mario Cart */,
-				ED0D9C1621FBD9710040BA87 /* Mario CartTests */,
-				ED0D9C2121FBD9710040BA87 /* Mario CartUITests */,
+				ED0D9C0121FBD96E0040BA87 /* MarioKart */,
+				ED0D9C1621FBD9710040BA87 /* MarioKartTests */,
+				ED0D9C2121FBD9710040BA87 /* MarioKartUITests */,
 				ED0D9C0021FBD96E0040BA87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		ED0D9C0021FBD96E0040BA87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED0D9BFF21FBD96E0040BA87 /* Mario Cart.app */,
-				ED0D9C1321FBD9710040BA87 /* Mario CartTests.xctest */,
-				ED0D9C1E21FBD9710040BA87 /* Mario CartUITests.xctest */,
+				ED0D9BFF21FBD96E0040BA87 /* MarioKart.app */,
+				ED0D9C1321FBD9710040BA87 /* MarioKartTests.xctest */,
+				ED0D9C1E21FBD9710040BA87 /* MarioKartUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED0D9C0121FBD96E0040BA87 /* Mario Cart */ = {
+		ED0D9C0121FBD96E0040BA87 /* MarioKart */ = {
 			isa = PBXGroup;
 			children = (
 				ED0D9C0221FBD96E0040BA87 /* AppDelegate.swift */,
@@ -104,33 +104,33 @@
 				ED0D9C0B21FBD9710040BA87 /* LaunchScreen.storyboard */,
 				ED0D9C0E21FBD9710040BA87 /* Info.plist */,
 			);
-			path = "Mario Cart";
+			path = MarioKart;
 			sourceTree = "<group>";
 		};
-		ED0D9C1621FBD9710040BA87 /* Mario CartTests */ = {
+		ED0D9C1621FBD9710040BA87 /* MarioKartTests */ = {
 			isa = PBXGroup;
 			children = (
 				ED0D9C1721FBD9710040BA87 /* Mario_CartTests.swift */,
 				ED0D9C1921FBD9710040BA87 /* Info.plist */,
 			);
-			path = "Mario CartTests";
+			path = MarioKartTests;
 			sourceTree = "<group>";
 		};
-		ED0D9C2121FBD9710040BA87 /* Mario CartUITests */ = {
+		ED0D9C2121FBD9710040BA87 /* MarioKartUITests */ = {
 			isa = PBXGroup;
 			children = (
 				ED0D9C2221FBD9710040BA87 /* Mario_CartUITests.swift */,
 				ED0D9C2421FBD9710040BA87 /* Info.plist */,
 			);
-			path = "Mario CartUITests";
+			path = MarioKartUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED0D9BFE21FBD96D0040BA87 /* Mario Cart */ = {
+		ED0D9BFE21FBD96D0040BA87 /* MarioKart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED0D9C2721FBD9710040BA87 /* Build configuration list for PBXNativeTarget "Mario Cart" */;
+			buildConfigurationList = ED0D9C2721FBD9710040BA87 /* Build configuration list for PBXNativeTarget "MarioKart" */;
 			buildPhases = (
 				ED0D9BFB21FBD96D0040BA87 /* Sources */,
 				ED0D9BFC21FBD96D0040BA87 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "Mario Cart";
+			name = MarioKart;
 			productName = "Mario Cart";
-			productReference = ED0D9BFF21FBD96E0040BA87 /* Mario Cart.app */;
+			productReference = ED0D9BFF21FBD96E0040BA87 /* MarioKart.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED0D9C1221FBD9710040BA87 /* Mario CartTests */ = {
+		ED0D9C1221FBD9710040BA87 /* MarioKartTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED0D9C2A21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "Mario CartTests" */;
+			buildConfigurationList = ED0D9C2A21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "MarioKartTests" */;
 			buildPhases = (
 				ED0D9C0F21FBD9710040BA87 /* Sources */,
 				ED0D9C1021FBD9710040BA87 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				ED0D9C1521FBD9710040BA87 /* PBXTargetDependency */,
 			);
-			name = "Mario CartTests";
+			name = MarioKartTests;
 			productName = "Mario CartTests";
-			productReference = ED0D9C1321FBD9710040BA87 /* Mario CartTests.xctest */;
+			productReference = ED0D9C1321FBD9710040BA87 /* MarioKartTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ED0D9C1D21FBD9710040BA87 /* Mario CartUITests */ = {
+		ED0D9C1D21FBD9710040BA87 /* MarioKartUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED0D9C2D21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "Mario CartUITests" */;
+			buildConfigurationList = ED0D9C2D21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "MarioKartUITests" */;
 			buildPhases = (
 				ED0D9C1A21FBD9710040BA87 /* Sources */,
 				ED0D9C1B21FBD9710040BA87 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				ED0D9C2021FBD9710040BA87 /* PBXTargetDependency */,
 			);
-			name = "Mario CartUITests";
+			name = MarioKartUITests;
 			productName = "Mario CartUITests";
-			productReference = ED0D9C1E21FBD9710040BA87 /* Mario CartUITests.xctest */;
+			productReference = ED0D9C1E21FBD9710040BA87 /* MarioKartUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED0D9BFA21FBD96D0040BA87 /* Build configuration list for PBXProject "Mario Cart" */;
+			buildConfigurationList = ED0D9BFA21FBD96D0040BA87 /* Build configuration list for PBXProject "MarioKart" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED0D9BFE21FBD96D0040BA87 /* Mario Cart */,
-				ED0D9C1221FBD9710040BA87 /* Mario CartTests */,
-				ED0D9C1D21FBD9710040BA87 /* Mario CartUITests */,
+				ED0D9BFE21FBD96D0040BA87 /* MarioKart */,
+				ED0D9C1221FBD9710040BA87 /* MarioKartTests */,
+				ED0D9C1D21FBD9710040BA87 /* MarioKartUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		ED0D9C1521FBD9710040BA87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED0D9BFE21FBD96D0040BA87 /* Mario Cart */;
+			target = ED0D9BFE21FBD96D0040BA87 /* MarioKart */;
 			targetProxy = ED0D9C1421FBD9710040BA87 /* PBXContainerItemProxy */;
 		};
 		ED0D9C2021FBD9710040BA87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED0D9BFE21FBD96D0040BA87 /* Mario Cart */;
+			target = ED0D9BFE21FBD96D0040BA87 /* MarioKart */;
 			targetProxy = ED0D9C1F21FBD9710040BA87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,12 +434,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CBXAQN69JX;
-				INFOPLIST_FILE = "Mario Cart/Info.plist";
+				INFOPLIST_FILE = MarioKart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.charlie.Mario-Cart";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlie.MarioKart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,12 +452,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CBXAQN69JX;
-				INFOPLIST_FILE = "Mario Cart/Info.plist";
+				INFOPLIST_FILE = MarioKart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.charlie.Mario-Cart";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlie.MarioKart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mario Cart.app/Mario Cart";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioKart.app/MarioKart";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mario Cart.app/Mario Cart";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioKart.app/MarioKart";
 			};
 			name = Release;
 		};
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED0D9BFA21FBD96D0040BA87 /* Build configuration list for PBXProject "Mario Cart" */ = {
+		ED0D9BFA21FBD96D0040BA87 /* Build configuration list for PBXProject "MarioKart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED0D9C2521FBD9710040BA87 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED0D9C2721FBD9710040BA87 /* Build configuration list for PBXNativeTarget "Mario Cart" */ = {
+		ED0D9C2721FBD9710040BA87 /* Build configuration list for PBXNativeTarget "MarioKart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED0D9C2821FBD9710040BA87 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED0D9C2A21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "Mario CartTests" */ = {
+		ED0D9C2A21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "MarioKartTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED0D9C2B21FBD9710040BA87 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED0D9C2D21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "Mario CartUITests" */ = {
+		ED0D9C2D21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "MarioKartUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED0D9C2E21FBD9710040BA87 /* Debug */,
