@@ -112,5 +112,14 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
          }
       }
    }
+
+   // Allow simultaneous gesture recognition
+   // In this case, allow only pinch and rotation.
+   // Set the delegate on each pan gesture recognizer if panning is desired in
+   // addition to pinch and rotate
+   func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+      // Yes, simultaneous gestures should be allowed
+      return true
+   }
 }
 

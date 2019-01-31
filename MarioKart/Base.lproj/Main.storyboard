@@ -73,7 +73,6 @@
                 <panGestureRecognizer minimumNumberOfTouches="1" id="r47-Dr-U34">
                     <connections>
                         <action selector="didPanKart:" destination="BYZ-38-t0r" id="Vd2-Af-72x"/>
-                        <outlet property="delegate" destination="BYZ-38-t0r" id="bp8-nF-W5U"/>
                     </connections>
                 </panGestureRecognizer>
                 <pinchGestureRecognizer id="EsG-Yt-AvT">
@@ -95,7 +94,6 @@
                 <panGestureRecognizer minimumNumberOfTouches="1" id="zjJ-6u-dub">
                     <connections>
                         <action selector="didPanKart:" destination="BYZ-38-t0r" id="Da4-2A-cXy"/>
-                        <outlet property="delegate" destination="BYZ-38-t0r" id="gYu-uo-aYC"/>
                     </connections>
                 </panGestureRecognizer>
                 <pinchGestureRecognizer id="aNM-1O-xdO">
