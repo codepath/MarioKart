@@ -28,18 +28,6 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
                              kartView1.center,
                              kartView2.center]
    }
-   /*
-   // Move the kart's position as the user pans (simple approach using location)
-   @IBAction func didPanKart(_ sender: UIPanGestureRecognizer) {
-       // Get the current loaction value from the gesture recognizer
-      let location = sender.location(in: view)
-      // Get a reference to the kart that was panned
-      let kartView = sender.view
-      // print("Location: x: \(location.x), y: \(location.y)")
-      // Move the kart to the location returned from the gesture recognizer
-      kartView?.center = location
-   }
-   */
 
    // Move the kart's position as the user pans (refactored using translation)
    @IBAction func didPanKart(_ sender: UIPanGestureRecognizer) {
@@ -47,12 +35,36 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
       let translation = sender.translation(in: view)
       // Get a reference to the kart that was panned
       let kartView = sender.view!
-      // Update the kart's position by adding and assigning the translation
-      // from the gesture recognizer
-      kartView.center.x += translation.x
-      kartView.center.y += translation.y
-      // reset the gesture recognizer's scale in preperation for the next call
-      sender.setTranslation(CGPoint(x: 0, y: 0), in: view)
+      // If this is the beginning of the gesture recognition event, do the following
+      // The begin state is called only once per recognition event
+      if sender.state == .began {
+         // Bring the kart view in front of the other karts
+         view.bringSubviewToFront(kartView)
+         // Initiate a spring animation sequence and specify the animation"s
+         // duration, spring settings and animation options
+         UIView.animate(withDuration: 0.6, delay: 0, usingSpringWithDamping: 0.4, initialSpringVelocity: 1, options: .curveEaseIn, animations: {
+            // update the kart's transform property with and absolute sacle: 2x
+            kartView.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
+            // Since no following animations, completion handler is set to nil
+         }, completion: nil)
+         // If this is the gesture recognition event is in progress, do the following
+         // The changed state is called continuously as the gesture event is in progress
+      } else if sender.state == .changed {
+         // Update the kart's position by adding and assigning the translation
+         // from the gesture recognizer
+         kartView.center.x += translation.x
+         kartView.center.y += translation.y
+         // reset the gesture recognizer's scale in preperation for the next call
+         sender.setTranslation(CGPoint(x: 0, y: 0), in: view)
+      } else if sender.state == .ended {
+         // Initiate a spring animation sequence and specify the animation"s
+         // duration, spring settings and animation options
+         UIView.animate(withDuration: 0.6, delay: 0, usingSpringWithDamping: 0.4, initialSpringVelocity: 1, options: .curveEaseIn, animations: {
+            // update the kart's transform property with and absolute sacle: 2x
+            kartView.transform = CGAffineTransform(scaleX: 1, y: 1)
+            // no following animations so completion handler is set to nil
+         }, completion: nil)
+      }
    }
 
    // Scale the kart as the user pinches
