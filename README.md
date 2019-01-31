@@ -6,13 +6,13 @@
 Tired of boring button-centric UI? Well...in iOS it's easy to implement interactive gestures and fun animations to give your UI some well deserved pop! In this lab you'll build an app that allows users to interact with characters from the iconic video game, Mario Kart, panning, scaling, rotating and then sending them zooming off the screen! 🏎
 
 ### User Stories
-- **Required** (Project on `master` branch)
+- **Required** (Demo project on **[master branch](https://github.com/codepath/MarioKart/tree/master)**)
    1. User can move karts around the screen using a pan gesture.
    1. User can adjust the size of a cart using a pinch gesture. 
    1. User can rotate a cart using a rotation gesture.
    1. User can double tap a kart to make it *zoom* (animate) off the screen.
    1. User can long press the background to reset the karts.
-- **Bonus** (Project on `bonus_stories` branch)
+- **Bonus** (Demo Project on `bonus_stories` branch)
    1. User can use pinch and rotation gestures simultaneously.
    1. While panning, karts slightly increase in size to simulate being *picked up*.
    1. Karts animate backwards slightly before *zooming* off to simulate *winding up*.
