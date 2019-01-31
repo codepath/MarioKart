@@ -18,12 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-mH-MbI">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="10" contentMode="scaleAspectFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-mH-MbI">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Qrf-hV-kp3" appends="YES" id="FKF-27-1SN"/>
+                                    <outletCollection property="gestureRecognizers" destination="0z3-2d-Nng" appends="YES" id="GZl-IZ-ugB"/>
                                 </connections>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="character_04" translatesAutoresizingMaskIntoConstraints="NO" id="als-WX-Waq">
@@ -137,6 +138,11 @@
                         <action selector="didLongPressBackground:" destination="BYZ-38-t0r" id="RxL-ko-Rwj"/>
                     </connections>
                 </pongPressGestureRecognizer>
+                <tapGestureRecognizer numberOfTapsRequired="3" id="0z3-2d-Nng">
+                    <connections>
+                        <action selector="didTrippleTabBackground:" destination="BYZ-38-t0r" id="ksV-xk-YIn"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="52" y="25.862068965517242"/>
         </scene>
