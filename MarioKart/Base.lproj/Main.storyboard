@@ -74,6 +74,7 @@
                 <panGestureRecognizer minimumNumberOfTouches="1" id="r47-Dr-U34">
                     <connections>
                         <action selector="didPanKart:" destination="BYZ-38-t0r" id="Vd2-Af-72x"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="3Se-Ch-hLl"/>
                     </connections>
                 </panGestureRecognizer>
                 <pinchGestureRecognizer id="EsG-Yt-AvT">
@@ -95,6 +96,7 @@
                 <panGestureRecognizer minimumNumberOfTouches="1" id="zjJ-6u-dub">
                     <connections>
                         <action selector="didPanKart:" destination="BYZ-38-t0r" id="Da4-2A-cXy"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="OCr-Jp-40M"/>
                     </connections>
                 </panGestureRecognizer>
                 <pinchGestureRecognizer id="aNM-1O-xdO">
@@ -116,11 +118,13 @@
                 <panGestureRecognizer minimumNumberOfTouches="1" id="0m8-39-CqE">
                     <connections>
                         <action selector="didPanKart:" destination="BYZ-38-t0r" id="gcC-hp-bFW"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="gWX-71-Rkt"/>
                     </connections>
                 </panGestureRecognizer>
                 <pinchGestureRecognizer id="4zu-iS-dMO">
                     <connections>
                         <action selector="didPinchKart:" destination="BYZ-38-t0r" id="fAV-wB-Qeu"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="DY9-fi-OFQ"/>
                     </connections>
                 </pinchGestureRecognizer>
                 <rotationGestureRecognizer id="SiC-fa-PV4">
