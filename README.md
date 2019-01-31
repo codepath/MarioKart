@@ -15,7 +15,10 @@ Tired of boring button-centric UI? Well...in iOS it's easy to implement interact
 - **Bonus** (Demo Project on **[bonus_stories branch](https://github.com/codepath/MarioKart/tree/bonus_stories)**)
    1. User can use pinch and rotation gestures simultaneously.
    1. While panning, karts slightly increase in size to simulate being *picked up*.
-   1. Karts animate backwards slightly before *zooming* off to simulate *winding up*.
+   1. When a user double taps a kart it...
+      1. Animates backwards slightly before *racing* off to simulate *winding up*.
+      1. Pops a wheelie by rotating up and back down as it races off.
+      1. After finishing racing off the screen, the kart fades back in it's original position.  
    1. User can triple tap the background to make all karts on the track *zoom* (animate) off at different speeds. 
    1. User can long press a cart to toggle between original and scaled up sizes with bouncing animations.
    
