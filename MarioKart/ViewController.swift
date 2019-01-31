@@ -78,6 +78,14 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
       kartView.transform = kartView.transform.scaledBy(x: scale, y: scale)
       // reset the gesture recognizer's scale in preperation for the next call
       sender.scale = 1
+
+      if sender.state == .ended {
+         UIView.animate(withDuration: 0.4, delay: 0, usingSpringWithDamping: 0.4, initialSpringVelocity: 1, options: .curveEaseIn, animations: {
+            // update the kart's transform property with and absolute sacle: 2x
+            kartView.transform = CGAffineTransform.identity
+            // no following animations so completion handler is set to nil
+         }, completion: nil)
+      }
    }
 
    // Rotate the cart
@@ -91,6 +99,14 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
       kartView.transform = kartView.transform.rotated(by: rotation)
       // reset the gesture recognizer's rotation in preperation for the next call
       sender.rotation = 0
+
+      if sender.state == .ended {
+         UIView.animate(withDuration: 0.4, delay: 0, usingSpringWithDamping: 0.4, initialSpringVelocity: 1, options: .curveEaseIn, animations: {
+            // update the kart's transform property with and absolute sacle: 2x
+            kartView.transform = CGAffineTransform.identity
+            // no following animations so completion handler is set to nil
+         }, completion: nil)
+      }
    }
 
    // Race the kart off the screen
