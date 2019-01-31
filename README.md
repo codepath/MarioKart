@@ -12,8 +12,14 @@ Tired of boring button-centric UI? Well...in iOS it's easy to implement interact
    1. User can rotate a cart using a rotation gesture.
    1. User can double tap a kart to make it *zoom* (animate) off the screen.
    1. User can long press the background to reset the karts.
+- **Bonus**
+   1. User can use pinch and rotation gestures simultaneously.
+   1. While panning, karts slightly increase in size to simulate being *picked up*.
+   1. Karts animate backwards slightly before *zooming* off to simulate *winding up*.
+   1. User can triple tap the background to make all karts on the track *zoom* (animate) off at different speeds. 
+   1. User can long press a cart to toggle between original and scaled up sizes with bouncing animations.
    
-### Required Topics
+### New Topics
 
 1. **Assets**
    1. Adding images to Assets folder
