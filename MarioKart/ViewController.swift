@@ -23,7 +23,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
    // setting up it's views
    override func viewDidLoad() {
       super.viewDidLoad()
-
+      // Store the centers for all the karts (where ever they are when the app launches)
       originalKartCenters = [kartView0.center,
                              kartView1.center,
                              kartView2.center]
@@ -93,15 +93,49 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
       sender.rotation = 0
    }
 
-   // Zoom the kart
+   // Race the kart off the screen
    @IBAction func didDoubleTapKart(_ sender: UITapGestureRecognizer) {
       // Get a reference to the kart that was rotated
       let kartView = sender.view!
-      // Initiate an animation sequence and specify the animation duration
-      UIView.animate(withDuration: 0.6) {
-         // Specify the animation end state:
-         // - a shift in the kart's horizontal poition by the width of the screen
-         kartView.center.x = kartView.center.x + self.view.frame.width
+      // Kick off racing animation.
+      // 1. Animate kart backwards wirh spring animation
+      // 2. After backwards animation completes
+      //   i. Pop a wheelie (rotate -30 deg and back down)
+      //   ii. Race off the screen to the right (send the kart some fixed amout passed creen edge)
+      //   iii. After race animation finishes, fade the kart back in it's orig. position.
+      UIView.animate(withDuration: 0.2, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0, options: .curveEaseOut, animations: {
+         // Specify backwards animation end state: kart position slightly to the left
+         kartView.center.x = kartView.center.x - 40
+      }) { (Bool) in
+         // Kick off "Pop a whelie" animation
+         // Autorevere with 0 repeats will pitch the kart up and back down
+         UIView.animate(withDuration: 0.3, delay: 0, options: [.autoreverse, .repeat], animations: {
+            UIView.setAnimationRepeatCount(0)
+            kartView.transform = CGAffineTransform(rotationAngle: CGFloat((-30) * Double.pi / 180))
+         }, completion: { (Bool) in
+            // Despite the autoreverse, the end state will always be what's specified
+            // in the above animation block. In this case, back to roated -30deg
+            // Set the rotation back to 0 after the pervious animation for a true
+            // "up & down" effect
+            kartView.transform = CGAffineTransform(rotationAngle: 0)
+         })
+         
+         // Kick off "Race off animation with re-spawn"
+         UIView.animate(withDuration: 0.8, delay: 0, options: .curveEaseIn, animations: {
+            // Specify "race off" animation end state: kart position of the screen to the right
+            kartView.center.x = kartView.center.x + 600
+         }, completion: { (Bool) in
+            // After racing off animation has finished...
+            // Set the initial state of the view to be transparent (aplha = 0)
+            kartView.alpha = 0
+            // Move the (transparent) kart back to it's original position
+            // Use the kart's tag to get the correct center from the original centers array
+            kartView.center = self.originalKartCenters[kartView.tag]
+            // Kick off alpha fade in of kart
+            UIView.animate(withDuration: 0.4, animations: {
+               kartView.alpha = 1
+            })
+         })
       }
    }
 

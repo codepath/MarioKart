@@ -37,7 +37,7 @@
                                     <outletCollection property="gestureRecognizers" destination="Kj5-VJ-ha8" appends="YES" id="nxQ-Nf-59J"/>
                                 </connections>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="character_01" translatesAutoresizingMaskIntoConstraints="NO" id="NJQ-JM-uLs">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="character_01" translatesAutoresizingMaskIntoConstraints="NO" id="NJQ-JM-uLs">
                                 <rect key="frame" x="127" y="645" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <gestureRecognizers/>
@@ -48,7 +48,7 @@
                                     <outletCollection property="gestureRecognizers" destination="iCo-Q7-ZGL" appends="YES" id="lsc-Vj-ooF"/>
                                 </connections>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="character_02" translatesAutoresizingMaskIntoConstraints="NO" id="xqE-wn-w6s">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="character_02" translatesAutoresizingMaskIntoConstraints="NO" id="xqE-wn-w6s">
                                 <rect key="frame" x="239" y="645" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <gestureRecognizers/>
