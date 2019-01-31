@@ -12,7 +12,7 @@ Tired of boring button-centric UI? Well...in iOS it's easy to implement interact
    1. User can rotate a cart using a rotation gesture.
    1. User can double tap a kart to make it *zoom* (animate) off the screen.
    1. User can long press the background to reset the karts.
-- **Bonus** (Demo Project on `bonus_stories` branch)
+- **Bonus** (Demo Project on **[bonus_stories branch](https://github.com/codepath/MarioKart/tree/bonus_stories)**)
    1. User can use pinch and rotation gestures simultaneously.
    1. While panning, karts slightly increase in size to simulate being *picked up*.
    1. Karts animate backwards slightly before *zooming* off to simulate *winding up*.
