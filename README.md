@@ -1,6 +1,6 @@
 # iOS Lab 4 - MarioKart
 
-<img src="https://i.imgur.com/2rbj1yM.gif" width=150>&nbsp;<img src="https://i.imgur.com/shRDp0C.gif" width=150>
+<img src="https://i.imgur.com/2rbj1yM.gif" width=150>&nbsp;<img src="https://i.imgur.com/shRDp0C.gif" width=150>&nbsp;<img src="https://i.imgur.com/j9lruic.gif" width=150>
 
 ### Overview
 Tired of boring button-centric UI? Well...in iOS it's easy to implement interactive gestures and fun animations to give your UI some well deserved pop! In this lab you'll build an app that allows users to interact with characters from the iconic video game, Mario Kart, panning, scaling, rotating and then sending them zooming off the screen! 🏎
