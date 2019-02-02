@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C788A3C9558478E03517C0BC191ABC /* Pods-MarioKart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F14678DAABFAA6139E2D9C5444C89 /* Pods-MarioKart-dummy.m */; };
+		06D7EF262069772CDEB476DDB9A9C91E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8208F2D0FCC50FAEF2EA76B2D82815E1 /* QuartzCore.framework */; };
+		0C39F3031226B02EFB8A049EAC792AE5 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2A58049C6EFDF6E756A2AFCD9E60D /* FLAnimatedImage.m */; };
+		2F11569EA3BB5DC211CE6EDA99A0B8CA /* Pods-MarioKartUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D05F5E81533831F9841D67BF86D56636 /* Pods-MarioKartUITests-dummy.m */; };
+		3A5603A556ACF6445EA439A16CC99132 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8837557476B2318481564842BAAD980 /* MobileCoreServices.framework */; };
+		48DDBC9907C089FAE2FA9968C4ECF859 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B634FF6F0FBCF34E4B579172137EE0A4 /* ImageIO.framework */; };
+		4EE877504C76FDD4D66CC29D66A52FC8 /* Pods-MarioKartTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E48354F8A05777B25E65299BE2C492 /* Pods-MarioKartTests-dummy.m */; };
+		55A8FBD7F24B060B3C6BFADDAE97024E /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A01DBB29977A6C4513846DA3A68AA596 /* FLAnimatedImage-dummy.m */; };
+		649BC15BE030E2491C38DC532ED54C29 /* Pods-MarioKartTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBA30B8A2B13A2EFD49E17D6A3FB1B0 /* Pods-MarioKartTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6518491C5DAD4162579EECE2CCCF493D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBCB74675343B61174A8839FCAC990F /* Foundation.framework */; };
+		753576B2AFDC8214EF0B204B209F0D1A /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2959A3ADA751FA7C1FF0DAACBE70952C /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A86EF66831E7CE3B159E4A25430E9529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBCB74675343B61174A8839FCAC990F /* Foundation.framework */; };
+		B19CD67D3D8A1EBE73C1596854215596 /* FLAnimatedImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 861D0FC3A578721FF69E9FFA4C764256 /* FLAnimatedImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7BB784E0F33437037CEA2AD51196248 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F678EAB21C95B5D6A89D01EEC155B3 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8BD47978238531112E6D6700739F895 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBCB74675343B61174A8839FCAC990F /* Foundation.framework */; };
+		D2D5FE5E52DB3382E99AE09A92138DA2 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04499C25D8281B3732F5506EA596B264 /* FLAnimatedImageView.m */; };
+		D99FB801CCF4B5C15AD7A5B1ED20B8AE /* Pods-MarioKart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5814CFFD10AB121689D386DB32921269 /* Pods-MarioKart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A9E981086CF54E8280AAEE7FA7C70A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194CA0F19F6339BF7C954724CB5976A6 /* CoreGraphics.framework */; };
+		F45AC5BB095CCAAB9C3B59394B985662 /* Pods-MarioKartUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5145C1C4595B5878CEDBFA5D19D926CA /* Pods-MarioKartUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F58A913988DA9B7DF13165CAD5E10A19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBCB74675343B61174A8839FCAC990F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B50FF2DB7F076A81CBB4F3EAB7FADED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F704F4B622C0FA776D0F6DB0B8FAFC62;
+			remoteInfo = "Pods-MarioKart";
+		};
+		A6AFE264ECE7D516ACADAAFD92B0D487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F111FA0695D7341183345C1E3B3BB86;
+			remoteInfo = FLAnimatedImage;
+		};
+		EB3C336EB14FF251CEC6F2EE658814D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F704F4B622C0FA776D0F6DB0B8FAFC62;
+			remoteInfo = "Pods-MarioKart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04499C25D8281B3732F5506EA596B264 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		09DD7861BA2664D0873E1161B8B1809D /* Pods-MarioKartUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarioKartUITests.modulemap"; sourceTree = "<group>"; };
+		114D59B2D0A172FD652A5CF33661A594 /* Pods-MarioKart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarioKart.release.xcconfig"; sourceTree = "<group>"; };
+		194CA0F19F6339BF7C954724CB5976A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1C1F14678DAABFAA6139E2D9C5444C89 /* Pods-MarioKart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarioKart-dummy.m"; sourceTree = "<group>"; };
+		1DE1448F390FF2F2ABEC8547D4610DAD /* Pods-MarioKart-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarioKart-resources.sh"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2959A3ADA751FA7C1FF0DAACBE70952C /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		2DBCB74675343B61174A8839FCAC990F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36CEEB6810CBEEF898C9D66729E70197 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E1EEC0F7F4110F22C83ACC39CD0E8B /* Pods-MarioKartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarioKartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5145C1C4595B5878CEDBFA5D19D926CA /* Pods-MarioKartUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarioKartUITests-umbrella.h"; sourceTree = "<group>"; };
+		5814CFFD10AB121689D386DB32921269 /* Pods-MarioKart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarioKart-umbrella.h"; sourceTree = "<group>"; };
+		5C1AF517C6EFAD0ABEFABB929BFC0866 /* Pods-MarioKartTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarioKartTests-frameworks.sh"; sourceTree = "<group>"; };
+		5CA2A58049C6EFDF6E756A2AFCD9E60D /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		655B0EA7709F6B7EC82AE3EB766213AE /* Pods-MarioKart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarioKart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6666A079C8459BBE253393607430CA5F /* FLAnimatedImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.xcconfig; sourceTree = "<group>"; };
+		762970FC8A924BDDB5E596E5AD968506 /* Pods-MarioKart-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarioKart-frameworks.sh"; sourceTree = "<group>"; };
+		7A930757D0FEF6C9AC7ADD50C2C1938C /* Pods_MarioKartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarioKartUITests.framework; path = "Pods-MarioKartUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B35743BC554CFBC3F5A0A4D5B4FA3C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8208F2D0FCC50FAEF2EA76B2D82815E1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8255F39BB01CC42A37C95495A75F373C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8338FDF4D868919E7BD3152B27F3368F /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLAnimatedImage.framework; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		861D0FC3A578721FF69E9FFA4C764256 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
+		89F9D33BB3B51904E8061E2674F6CD97 /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
+		96520DA1479C7F4031F21C4088F4075A /* Pods-MarioKartTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarioKartTests-resources.sh"; sourceTree = "<group>"; };
+		976D8EECEED5FE09E24D93BCA0DEBDF4 /* Pods_MarioKart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarioKart.framework; path = "Pods-MarioKart.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01DBB29977A6C4513846DA3A68AA596 /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
+		A34BCE518B3CBC9391314C8A9CB7D2BB /* Pods_MarioKartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarioKartTests.framework; path = "Pods-MarioKartTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F678EAB21C95B5D6A89D01EEC155B3 /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		A8FA7E17A38C181D55852797E8EA2816 /* Pods-MarioKartUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarioKartUITests-resources.sh"; sourceTree = "<group>"; };
+		B188730FA14023A7A160AE1B50B60722 /* Pods-MarioKartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarioKartTests.release.xcconfig"; sourceTree = "<group>"; };
+		B208BEB03A882C9C0FE4858FE9523D68 /* Pods-MarioKartUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarioKartUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B23B8F1CF46B9A57576BB84A812E5F44 /* Pods-MarioKart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarioKart.debug.xcconfig"; sourceTree = "<group>"; };
+		B634FF6F0FBCF34E4B579172137EE0A4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B7D4CB45179CE0D7321400F715D31159 /* Pods-MarioKartTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarioKartTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8837557476B2318481564842BAAD980 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		C1AE199C42F01E47E4896F0C37E2F008 /* Pods-MarioKartUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarioKartUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C52C172F6CB5D2137C029881A8EE9E4E /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
+		C8F694F48E0827D47557970F36C49E89 /* Pods-MarioKart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarioKart-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD3BDE3E526321F7519F75260C24BADA /* Pods-MarioKartTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarioKartTests.modulemap"; sourceTree = "<group>"; };
+		CEBA30B8A2B13A2EFD49E17D6A3FB1B0 /* Pods-MarioKartTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarioKartTests-umbrella.h"; sourceTree = "<group>"; };
+		D05F5E81533831F9841D67BF86D56636 /* Pods-MarioKartUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarioKartUITests-dummy.m"; sourceTree = "<group>"; };
+		D7763C617648987C8E55FC556ED4CBCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83C6D94C1B8F2C6794C83085CD19827 /* Pods-MarioKartTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarioKartTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD3B865FB7F4ADD446DC8F3149DCAE19 /* Pods-MarioKartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarioKartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8E48354F8A05777B25E65299BE2C492 /* Pods-MarioKartTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarioKartTests-dummy.m"; sourceTree = "<group>"; };
+		EA1A581A5DF21094AB21DE4C531BB41D /* Pods-MarioKart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarioKart.modulemap"; sourceTree = "<group>"; };
+		F3DA43DC3EF5E1A62D2FC9A8A0708BDF /* Pods-MarioKartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarioKartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F81173AE0086A75CA2B87787D3A40012 /* Pods-MarioKartUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarioKartUITests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EE405044B39B44462D06053855D978A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BD47978238531112E6D6700739F895 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F23646CD5D8AA86A3652FFCEAFB07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58A913988DA9B7DF13165CAD5E10A19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26804AA687EAC33AD46FBCB5EA99767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A9E981086CF54E8280AAEE7FA7C70A /* CoreGraphics.framework in Frameworks */,
+				A86EF66831E7CE3B159E4A25430E9529 /* Foundation.framework in Frameworks */,
+				48DDBC9907C089FAE2FA9968C4ECF859 /* ImageIO.framework in Frameworks */,
+				3A5603A556ACF6445EA439A16CC99132 /* MobileCoreServices.framework in Frameworks */,
+				06D7EF262069772CDEB476DDB9A9C91E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D163D8B633B9C02FD85759E24E5F9E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6518491C5DAD4162579EECE2CCCF493D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30ABE8D94A37B3EB4455526E9842CA0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8338FDF4D868919E7BD3152B27F3368F /* FLAnimatedImage.framework */,
+				976D8EECEED5FE09E24D93BCA0DEBDF4 /* Pods_MarioKart.framework */,
+				A34BCE518B3CBC9391314C8A9CB7D2BB /* Pods_MarioKartTests.framework */,
+				7A930757D0FEF6C9AC7ADD50C2C1938C /* Pods_MarioKartUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B23E791B8839DB6941C7EB499DAE965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE6993104FA1D3BD31D80E8BF4D1079D /* FLAnimatedImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93D656B82F227D5C154C2F98827EC85B /* Pods-MarioKartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36CEEB6810CBEEF898C9D66729E70197 /* Info.plist */,
+				09DD7861BA2664D0873E1161B8B1809D /* Pods-MarioKartUITests.modulemap */,
+				C1AE199C42F01E47E4896F0C37E2F008 /* Pods-MarioKartUITests-acknowledgements.markdown */,
+				B208BEB03A882C9C0FE4858FE9523D68 /* Pods-MarioKartUITests-acknowledgements.plist */,
+				D05F5E81533831F9841D67BF86D56636 /* Pods-MarioKartUITests-dummy.m */,
+				F81173AE0086A75CA2B87787D3A40012 /* Pods-MarioKartUITests-frameworks.sh */,
+				A8FA7E17A38C181D55852797E8EA2816 /* Pods-MarioKartUITests-resources.sh */,
+				5145C1C4595B5878CEDBFA5D19D926CA /* Pods-MarioKartUITests-umbrella.h */,
+				F3DA43DC3EF5E1A62D2FC9A8A0708BDF /* Pods-MarioKartUITests.debug.xcconfig */,
+				DD3B865FB7F4ADD446DC8F3149DCAE19 /* Pods-MarioKartUITests.release.xcconfig */,
+			);
+			name = "Pods-MarioKartUITests";
+			path = "Target Support Files/Pods-MarioKartUITests";
+			sourceTree = "<group>";
+		};
+		A7710048932FF5E7EE19F73C0D46D426 /* Pods-MarioKartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7763C617648987C8E55FC556ED4CBCC /* Info.plist */,
+				CD3BDE3E526321F7519F75260C24BADA /* Pods-MarioKartTests.modulemap */,
+				B7D4CB45179CE0D7321400F715D31159 /* Pods-MarioKartTests-acknowledgements.markdown */,
+				D83C6D94C1B8F2C6794C83085CD19827 /* Pods-MarioKartTests-acknowledgements.plist */,
+				E8E48354F8A05777B25E65299BE2C492 /* Pods-MarioKartTests-dummy.m */,
+				5C1AF517C6EFAD0ABEFABB929BFC0866 /* Pods-MarioKartTests-frameworks.sh */,
+				96520DA1479C7F4031F21C4088F4075A /* Pods-MarioKartTests-resources.sh */,
+				CEBA30B8A2B13A2EFD49E17D6A3FB1B0 /* Pods-MarioKartTests-umbrella.h */,
+				36E1EEC0F7F4110F22C83ACC39CD0E8B /* Pods-MarioKartTests.debug.xcconfig */,
+				B188730FA14023A7A160AE1B50B60722 /* Pods-MarioKartTests.release.xcconfig */,
+			);
+			name = "Pods-MarioKartTests";
+			path = "Target Support Files/Pods-MarioKartTests";
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F5419906553E3F6D760F5693EFB6E6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE5BF2EF66BA3EEEFBFB301C23518A26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F9D33BB3B51904E8061E2674F6CD97 /* FLAnimatedImage.modulemap */,
+				6666A079C8459BBE253393607430CA5F /* FLAnimatedImage.xcconfig */,
+				A01DBB29977A6C4513846DA3A68AA596 /* FLAnimatedImage-dummy.m */,
+				C52C172F6CB5D2137C029881A8EE9E4E /* FLAnimatedImage-prefix.pch */,
+				861D0FC3A578721FF69E9FFA4C764256 /* FLAnimatedImage-umbrella.h */,
+				7B35743BC554CFBC3F5A0A4D5B4FA3C4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLAnimatedImage";
+			sourceTree = "<group>";
+		};
+		C4B52EC168B90D06198E1295BBD1D677 /* Pods-MarioKart */ = {
+			isa = PBXGroup;
+			children = (
+				8255F39BB01CC42A37C95495A75F373C /* Info.plist */,
+				EA1A581A5DF21094AB21DE4C531BB41D /* Pods-MarioKart.modulemap */,
+				655B0EA7709F6B7EC82AE3EB766213AE /* Pods-MarioKart-acknowledgements.markdown */,
+				C8F694F48E0827D47557970F36C49E89 /* Pods-MarioKart-acknowledgements.plist */,
+				1C1F14678DAABFAA6139E2D9C5444C89 /* Pods-MarioKart-dummy.m */,
+				762970FC8A924BDDB5E596E5AD968506 /* Pods-MarioKart-frameworks.sh */,
+				1DE1448F390FF2F2ABEC8547D4610DAD /* Pods-MarioKart-resources.sh */,
+				5814CFFD10AB121689D386DB32921269 /* Pods-MarioKart-umbrella.h */,
+				B23B8F1CF46B9A57576BB84A812E5F44 /* Pods-MarioKart.debug.xcconfig */,
+				114D59B2D0A172FD652A5CF33661A594 /* Pods-MarioKart.release.xcconfig */,
+			);
+			name = "Pods-MarioKart";
+			path = "Target Support Files/Pods-MarioKart";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				4B23E791B8839DB6941C7EB499DAE965 /* Pods */,
+				30ABE8D94A37B3EB4455526E9842CA0E /* Products */,
+				E67685EB428A949E636D3DFCE663C8D5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6993104FA1D3BD31D80E8BF4D1079D /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				A4F678EAB21C95B5D6A89D01EEC155B3 /* FLAnimatedImage.h */,
+				5CA2A58049C6EFDF6E756A2AFCD9E60D /* FLAnimatedImage.m */,
+				2959A3ADA751FA7C1FF0DAACBE70952C /* FLAnimatedImageView.h */,
+				04499C25D8281B3732F5506EA596B264 /* FLAnimatedImageView.m */,
+				BE5BF2EF66BA3EEEFBFB301C23518A26 /* Support Files */,
+			);
+			name = FLAnimatedImage;
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		E67685EB428A949E636D3DFCE663C8D5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B52EC168B90D06198E1295BBD1D677 /* Pods-MarioKart */,
+				A7710048932FF5E7EE19F73C0D46D426 /* Pods-MarioKartTests */,
+				93D656B82F227D5C154C2F98827EC85B /* Pods-MarioKartUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F3F5419906553E3F6D760F5693EFB6E6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				194CA0F19F6339BF7C954724CB5976A6 /* CoreGraphics.framework */,
+				2DBCB74675343B61174A8839FCAC990F /* Foundation.framework */,
+				B634FF6F0FBCF34E4B579172137EE0A4 /* ImageIO.framework */,
+				B8837557476B2318481564842BAAD980 /* MobileCoreServices.framework */,
+				8208F2D0FCC50FAEF2EA76B2D82815E1 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28B66F5CD94A69303B31C381F8B41D60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99FB801CCF4B5C15AD7A5B1ED20B8AE /* Pods-MarioKart-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348C43B171C72C6175001195A2A9AE65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649BC15BE030E2491C38DC532ED54C29 /* Pods-MarioKartTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6DC5301F099FAE5C072AAA9A1D6667 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19CD67D3D8A1EBE73C1596854215596 /* FLAnimatedImage-umbrella.h in Headers */,
+				B7BB784E0F33437037CEA2AD51196248 /* FLAnimatedImage.h in Headers */,
+				753576B2AFDC8214EF0B204B209F0D1A /* FLAnimatedImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA06DB06CEF181B855210C916F3A33C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45AC5BB095CCAAB9C3B59394B985662 /* Pods-MarioKartUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4FEF9CA1D218FF662BEF29DEF282E9D0 /* Pods-MarioKartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C2E5E28F84E5BFA797433D71CD5194 /* Build configuration list for PBXNativeTarget "Pods-MarioKartTests" */;
+			buildPhases = (
+				348C43B171C72C6175001195A2A9AE65 /* Headers */,
+				DD9BC9155295D23DC5FF9340140A18F9 /* Sources */,
+				D163D8B633B9C02FD85759E24E5F9E80 /* Frameworks */,
+				A24B1CF966E277B9AF7C07D47CF1739C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC3B78E16E9D73B978088FC83968FB4 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarioKartTests";
+			productName = "Pods-MarioKartTests";
+			productReference = A34BCE518B3CBC9391314C8A9CB7D2BB /* Pods_MarioKartTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F111FA0695D7341183345C1E3B3BB86 /* FLAnimatedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223F5A8B86B4484DD481208F9A9E30E7 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
+			buildPhases = (
+				5A6DC5301F099FAE5C072AAA9A1D6667 /* Headers */,
+				1ED07DFD1BB0B568BFEF6EDD41AE8A0D /* Sources */,
+				C26804AA687EAC33AD46FBCB5EA99767 /* Frameworks */,
+				1AC306099B77C2343CA93A1427E92910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedImage;
+			productName = FLAnimatedImage;
+			productReference = 8338FDF4D868919E7BD3152B27F3368F /* FLAnimatedImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F087E7E4899FCB6165C54E4EC199A93 /* Pods-MarioKartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064EB8AD889B16CD696E89BF1E4B9D1C /* Build configuration list for PBXNativeTarget "Pods-MarioKartUITests" */;
+			buildPhases = (
+				5BA06DB06CEF181B855210C916F3A33C /* Headers */,
+				01C4515EF9F51A6D187CBD4F072A4AD5 /* Sources */,
+				0EE405044B39B44462D06053855D978A /* Frameworks */,
+				BABF846DA8F4161949B9559B9838DA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E479C74563790E245675ADC606AA7BEC /* PBXTargetDependency */,
+			);
+			name = "Pods-MarioKartUITests";
+			productName = "Pods-MarioKartUITests";
+			productReference = 7A930757D0FEF6C9AC7ADD50C2C1938C /* Pods_MarioKartUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F704F4B622C0FA776D0F6DB0B8FAFC62 /* Pods-MarioKart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739CD82EA4B755A41B8D1DAE65C7F643 /* Build configuration list for PBXNativeTarget "Pods-MarioKart" */;
+			buildPhases = (
+				28B66F5CD94A69303B31C381F8B41D60 /* Headers */,
+				DCD6DEF31BF81095D4F49654034F915A /* Sources */,
+				23F23646CD5D8AA86A3652FFCEAFB07A /* Frameworks */,
+				55A90FC472127D853F40CCFDF838D8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37CC26F9445F919BB0E3E2386F9EC4C /* PBXTargetDependency */,
+			);
+			name = "Pods-MarioKart";
+			productName = "Pods-MarioKart";
+			productReference = 976D8EECEED5FE09E24D93BCA0DEBDF4 /* Pods_MarioKart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 30ABE8D94A37B3EB4455526E9842CA0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F111FA0695D7341183345C1E3B3BB86 /* FLAnimatedImage */,
+				F704F4B622C0FA776D0F6DB0B8FAFC62 /* Pods-MarioKart */,
+				4FEF9CA1D218FF662BEF29DEF282E9D0 /* Pods-MarioKartTests */,
+				9F087E7E4899FCB6165C54E4EC199A93 /* Pods-MarioKartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC306099B77C2343CA93A1427E92910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A90FC472127D853F40CCFDF838D8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24B1CF966E277B9AF7C07D47CF1739C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABF846DA8F4161949B9559B9838DA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C4515EF9F51A6D187CBD4F072A4AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F11569EA3BB5DC211CE6EDA99A0B8CA /* Pods-MarioKartUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED07DFD1BB0B568BFEF6EDD41AE8A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A8FBD7F24B060B3C6BFADDAE97024E /* FLAnimatedImage-dummy.m in Sources */,
+				0C39F3031226B02EFB8A049EAC792AE5 /* FLAnimatedImage.m in Sources */,
+				D2D5FE5E52DB3382E99AE09A92138DA2 /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD6DEF31BF81095D4F49654034F915A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C788A3C9558478E03517C0BC191ABC /* Pods-MarioKart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9BC9155295D23DC5FF9340140A18F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE877504C76FDD4D66CC29D66A52FC8 /* Pods-MarioKartTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E37CC26F9445F919BB0E3E2386F9EC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 6F111FA0695D7341183345C1E3B3BB86 /* FLAnimatedImage */;
+			targetProxy = A6AFE264ECE7D516ACADAAFD92B0D487 /* PBXContainerItemProxy */;
+		};
+		E479C74563790E245675ADC606AA7BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MarioKart";
+			target = F704F4B622C0FA776D0F6DB0B8FAFC62 /* Pods-MarioKart */;
+			targetProxy = EB3C336EB14FF251CEC6F2EE658814D0 /* PBXContainerItemProxy */;
+		};
+		EFC3B78E16E9D73B978088FC83968FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MarioKart";
+			target = F704F4B622C0FA776D0F6DB0B8FAFC62 /* Pods-MarioKart */;
+			targetProxy = 7B50FF2DB7F076A81CBB4F3EAB7FADED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03A32D708A2A19B22BD07824F4AF6CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6666A079C8459BBE253393607430CA5F /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		068A219F9C384FD572D523EEE317D0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0A6157C932E86A06B3AB7C6255965ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114D59B2D0A172FD652A5CF33661A594 /* Pods-MarioKart.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarioKart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarioKart/Pods-MarioKart.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37CFF62457AF364791087D71EA7939FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B188730FA14023A7A160AE1B50B60722 /* Pods-MarioKartTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarioKartTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarioKartTests/Pods-MarioKartTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41D9CDBD833C2FF7340915AED052D8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E1EEC0F7F4110F22C83ACC39CD0E8B /* Pods-MarioKartTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarioKartTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarioKartTests/Pods-MarioKartTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		938018381DA178DEF4FDD259BAACB0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6666A079C8459BBE253393607430CA5F /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B66B6B74066591B3DC97EC661C8C499B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3B865FB7F4ADD446DC8F3149DCAE19 /* Pods-MarioKartUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarioKartUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarioKartUITests/Pods-MarioKartUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBE6F3CE47CC901275A999EBE3BF0996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23B8F1CF46B9A57576BB84A812E5F44 /* Pods-MarioKart.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarioKart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarioKart/Pods-MarioKart.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F8C49AEC8074F5F9A3710F4012F9BA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3DA43DC3EF5E1A62D2FC9A8A0708BDF /* Pods-MarioKartUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarioKartUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarioKartUITests/Pods-MarioKartUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064EB8AD889B16CD696E89BF1E4B9D1C /* Build configuration list for PBXNativeTarget "Pods-MarioKartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C49AEC8074F5F9A3710F4012F9BA70 /* Debug */,
+				B66B6B74066591B3DC97EC661C8C499B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223F5A8B86B4484DD481208F9A9E30E7 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938018381DA178DEF4FDD259BAACB0EC /* Debug */,
+				03A32D708A2A19B22BD07824F4AF6CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */,
+				068A219F9C384FD572D523EEE317D0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739CD82EA4B755A41B8D1DAE65C7F643 /* Build configuration list for PBXNativeTarget "Pods-MarioKart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE6F3CE47CC901275A999EBE3BF0996 /* Debug */,
+				0A6157C932E86A06B3AB7C6255965ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C2E5E28F84E5BFA797433D71CD5194 /* Build configuration list for PBXNativeTarget "Pods-MarioKartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D9CDBD833C2FF7340915AED052D8B0 /* Debug */,
+				37CFF62457AF364791087D71EA7939FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

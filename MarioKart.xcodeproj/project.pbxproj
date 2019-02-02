@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6396384E51B339B2E52E3E36 /* Pods_MarioKart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC07F55EAC36B178DE9D206 /* Pods_MarioKart.framework */; };
+		8BF6EDB6E69F15E5522D606F /* Pods_MarioKartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB8B08AFAFBD54EEA43C11E /* Pods_MarioKartUITests.framework */; };
+		BDE20E302006715053651A8D /* Pods_MarioKartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB212AF92A868D85C59946CC /* Pods_MarioKartTests.framework */; };
 		ED0D9C0321FBD96E0040BA87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D9C0221FBD96E0040BA87 /* AppDelegate.swift */; };
 		ED0D9C0521FBD96E0040BA87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D9C0421FBD96E0040BA87 /* ViewController.swift */; };
 		ED0D9C0821FBD96E0040BA87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0D9C0621FBD96E0040BA87 /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		ED0D9C0D21FBD9710040BA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0D9C0B21FBD9710040BA87 /* LaunchScreen.storyboard */; };
 		ED0D9C1821FBD9710040BA87 /* Mario_CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D9C1721FBD9710040BA87 /* Mario_CartTests.swift */; };
 		ED0D9C2321FBD9710040BA87 /* Mario_CartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D9C2221FBD9710040BA87 /* Mario_CartUITests.swift */; };
+		ED2FDCE52204FF6000167430 /* cloudAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED2FDCE42204FF6000167430 /* cloudAnimated.gif */; };
+		EDC554AF2205510D00181E31 /* mk_winner_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = EDC554AC2205510D00181E31 /* mk_winner_1.gif */; };
+		EDC554B02205510D00181E31 /* mk_winner_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = EDC554AD2205510D00181E31 /* mk_winner_0.gif */; };
+		EDC554B12205510D00181E31 /* mk_winner_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EDC554AE2205510D00181E31 /* mk_winner_2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23CA56C55EDEC24461680F7B /* Pods-MarioKart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioKart.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarioKart/Pods-MarioKart.release.xcconfig"; sourceTree = "<group>"; };
+		2FDFA0F85205DDCC95B32670 /* Pods-MarioKartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioKartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarioKartUITests/Pods-MarioKartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50E8A2CB06E0B2D10CAE64BD /* Pods-MarioKart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioKart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarioKart/Pods-MarioKart.debug.xcconfig"; sourceTree = "<group>"; };
+		584B17F644E93E6C42F1B233 /* Pods-MarioKartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioKartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarioKartUITests/Pods-MarioKartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		612719DBEF254EF6FC9ABFBB /* Pods-MarioKartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioKartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarioKartTests/Pods-MarioKartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB212AF92A868D85C59946CC /* Pods_MarioKartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarioKartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0D9BFF21FBD96E0040BA87 /* MarioKart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioKart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0D9C0221FBD96E0040BA87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED0D9C0421FBD96E0040BA87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,13 @@
 		ED0D9C1E21FBD9710040BA87 /* MarioKartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioKartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0D9C2221FBD9710040BA87 /* Mario_CartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario_CartUITests.swift; sourceTree = "<group>"; };
 		ED0D9C2421FBD9710040BA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2FDCE42204FF6000167430 /* cloudAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cloudAnimated.gif; sourceTree = "<group>"; };
+		EDC554AC2205510D00181E31 /* mk_winner_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mk_winner_1.gif; sourceTree = "<group>"; };
+		EDC554AD2205510D00181E31 /* mk_winner_0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mk_winner_0.gif; sourceTree = "<group>"; };
+		EDC554AE2205510D00181E31 /* mk_winner_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mk_winner_2.gif; sourceTree = "<group>"; };
+		EEB8B08AFAFBD54EEA43C11E /* Pods_MarioKartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarioKartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F078DD0628DB71694E8163F0 /* Pods-MarioKartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarioKartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarioKartTests/Pods-MarioKartTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEC07F55EAC36B178DE9D206 /* Pods_MarioKart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarioKart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6396384E51B339B2E52E3E36 /* Pods_MarioKart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE20E302006715053651A8D /* Pods_MarioKartTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF6EDB6E69F15E5522D606F /* Pods_MarioKartUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AF9E09085F3AF4A527BEA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC07F55EAC36B178DE9D206 /* Pods_MarioKart.framework */,
+				BB212AF92A868D85C59946CC /* Pods_MarioKartTests.framework */,
+				EEB8B08AFAFBD54EEA43C11E /* Pods_MarioKartUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1D582D0ADC142734C8DD0C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50E8A2CB06E0B2D10CAE64BD /* Pods-MarioKart.debug.xcconfig */,
+				23CA56C55EDEC24461680F7B /* Pods-MarioKart.release.xcconfig */,
+				612719DBEF254EF6FC9ABFBB /* Pods-MarioKartTests.debug.xcconfig */,
+				F078DD0628DB71694E8163F0 /* Pods-MarioKartTests.release.xcconfig */,
+				2FDFA0F85205DDCC95B32670 /* Pods-MarioKartUITests.debug.xcconfig */,
+				584B17F644E93E6C42F1B233 /* Pods-MarioKartUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED0D9BF621FBD96D0040BA87 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				ED0D9C1621FBD9710040BA87 /* MarioKartTests */,
 				ED0D9C2121FBD9710040BA87 /* MarioKartUITests */,
 				ED0D9C0021FBD96E0040BA87 /* Products */,
+				A1D582D0ADC142734C8DD0C9 /* Pods */,
+				4AF9E09085F3AF4A527BEA26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +151,10 @@
 				ED0D9C0921FBD9710040BA87 /* Assets.xcassets */,
 				ED0D9C0B21FBD9710040BA87 /* LaunchScreen.storyboard */,
 				ED0D9C0E21FBD9710040BA87 /* Info.plist */,
+				ED2FDCE42204FF6000167430 /* cloudAnimated.gif */,
+				EDC554AD2205510D00181E31 /* mk_winner_0.gif */,
+				EDC554AC2205510D00181E31 /* mk_winner_1.gif */,
+				EDC554AE2205510D00181E31 /* mk_winner_2.gif */,
 			);
 			path = MarioKart;
 			sourceTree = "<group>";
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED0D9C2721FBD9710040BA87 /* Build configuration list for PBXNativeTarget "MarioKart" */;
 			buildPhases = (
+				00AFD9B7EF61D5ECC6F3E0D6 /* [CP] Check Pods Manifest.lock */,
 				ED0D9BFB21FBD96D0040BA87 /* Sources */,
 				ED0D9BFC21FBD96D0040BA87 /* Frameworks */,
 				ED0D9BFD21FBD96D0040BA87 /* Resources */,
+				1D1F85B9FFD04EE0983AC9BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED0D9C2A21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "MarioKartTests" */;
 			buildPhases = (
+				765D128583976956728920C7 /* [CP] Check Pods Manifest.lock */,
 				ED0D9C0F21FBD9710040BA87 /* Sources */,
 				ED0D9C1021FBD9710040BA87 /* Frameworks */,
 				ED0D9C1121FBD9710040BA87 /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED0D9C2D21FBD9710040BA87 /* Build configuration list for PBXNativeTarget "MarioKartUITests" */;
 			buildPhases = (
+				7E7677D416F9426390FC103D /* [CP] Check Pods Manifest.lock */,
 				ED0D9C1A21FBD9710040BA87 /* Sources */,
 				ED0D9C1B21FBD9710040BA87 /* Frameworks */,
 				ED0D9C1C21FBD9710040BA87 /* Resources */,
@@ -230,8 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED0D9C0D21FBD9710040BA87 /* LaunchScreen.storyboard in Resources */,
+				EDC554AF2205510D00181E31 /* mk_winner_1.gif in Resources */,
 				ED0D9C0A21FBD9710040BA87 /* Assets.xcassets in Resources */,
 				ED0D9C0821FBD96E0040BA87 /* Main.storyboard in Resources */,
+				ED2FDCE52204FF6000167430 /* cloudAnimated.gif in Resources */,
+				EDC554B02205510D00181E31 /* mk_winner_0.gif in Resources */,
+				EDC554B12205510D00181E31 /* mk_winner_2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +310,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00AFD9B7EF61D5ECC6F3E0D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarioKart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D1F85B9FFD04EE0983AC9BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MarioKart/Pods-MarioKart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarioKart/Pods-MarioKart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		765D128583976956728920C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarioKartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7677D416F9426390FC103D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarioKartUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED0D9BFB21FBD96D0040BA87 /* Sources */ = {
@@ -430,6 +581,7 @@
 		};
 		ED0D9C2821FBD9710040BA87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E8A2CB06E0B2D10CAE64BD /* Pods-MarioKart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +600,7 @@
 		};
 		ED0D9C2921FBD9710040BA87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23CA56C55EDEC24461680F7B /* Pods-MarioKart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +619,7 @@
 		};
 		ED0D9C2B21FBD9710040BA87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612719DBEF254EF6FC9ABFBB /* Pods-MarioKartTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +641,7 @@
 		};
 		ED0D9C2C21FBD9710040BA87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F078DD0628DB71694E8163F0 /* Pods-MarioKartTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +663,7 @@
 		};
 		ED0D9C2E21FBD9710040BA87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDFA0F85205DDCC95B32670 /* Pods-MarioKartUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +684,7 @@
 		};
 		ED0D9C2F21FBD9710040BA87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584B17F644E93E6C42F1B233 /* Pods-MarioKartUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

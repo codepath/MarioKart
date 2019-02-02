@@ -1,0 +1,16 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+
+DEPENDENCIES:
+  - FLAnimatedImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+
+PODFILE CHECKSUM: e60241eb6adc51f2ab7735a6664a03b9915a6c3f
+
+COCOAPODS: 1.5.3

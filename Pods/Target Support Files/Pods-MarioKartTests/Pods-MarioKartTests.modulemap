@@ -1,0 +1,6 @@
+framework module Pods_MarioKartTests {
+  umbrella header "Pods-MarioKartTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
