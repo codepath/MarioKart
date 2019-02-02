@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="10" contentMode="scaleAspectFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-mH-MbI">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="-1" contentMode="scaleAspectFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-mH-MbI">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <gestureRecognizers/>
@@ -60,11 +60,16 @@
                                     <outletCollection property="gestureRecognizers" destination="RUc-6f-f4r" appends="YES" id="yyZ-u1-gFd"/>
                                 </connections>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" tag="-1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HdY-Eb-iAw" customClass="FLAnimatedImageView">
+                                <rect key="frame" x="219" y="111" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="cloudAnimatedView" destination="HdY-Eb-iAw" id="x83-8g-xh9"/>
                         <outlet property="kartView0" destination="als-WX-Waq" id="jHd-SY-Ecf"/>
                         <outlet property="kartView1" destination="NJQ-JM-uLs" id="UBA-HK-I6a"/>
                         <outlet property="kartView2" destination="xqE-wn-w6s" id="0Rs-Sx-mxw"/>
